@@ -83,3 +83,28 @@ console.log(rejectedColors); // stores 1 too ie number
 // array is basically an object so you can access it like that by dot notation
 console.log(rejectedColors.length); // 4 
 
+// Function : is a block of code which reduces the codebase length by combining meaningful code into one code
+
+function greet()
+{
+    console.log("Hello");
+}
+
+greet();  // function calling  prints Hello
+
+function advancedGreet(firstName,secondName)
+{
+    console.log("Hello" + " "+ firstName + " "+ secondName);
+}
+advancedGreet("john","smith");  // Hello John Smith it can pass parameters to functions
+
+// calculating a square
+
+function squareNumber(number)
+{ 
+   return number*number;
+
+}
+
+let answer =squareNumber(3);
+console.log(answer);
