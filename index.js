@@ -72,3 +72,14 @@ fruits.name = "banana";     //1 way
 fruits['name'] = 'bananna';   // 2nd way
 console.log(fruits);
 console.log(fruits.name); // bananna 
+
+
+// Array : In js you can store different types of data in array 
+
+let rejectedColors = ['red', 'blue', 'silver'];
+console.log(rejectedColors); // prints red , blue , silver
+rejectedColors[3] = 1;
+console.log(rejectedColors); // stores 1 too ie number
+// array is basically an object so you can access it like that by dot notation
+console.log(rejectedColors.length); // 4 
+
