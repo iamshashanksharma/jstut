@@ -29,7 +29,8 @@ console.log(interestRate);
 Primitives(value) :
 string , number , boolean , null , undefined
 
-reference :
+reference : 
+objects , arrays , function
 */
 
 let friendName = "Raj";
@@ -44,3 +45,30 @@ console.log(typeof(isApproved)); // boolean
 console.log(typeof(firstName));  // undefined 
 console.log(typeof(selectedColor)); // object shocked welcome to js typeof(null) = object
 
+// dynamic typing
+/*
+ Actually typing can be classified in two groups like : static and dynamic 
+ which means static language typed means when variable is assigned with a particular type it cannot be changed at runtime
+ but this is not true for the dynamic typed languages like javascript
+*/
+
+// Object 
+
+// like a person have attributes and properties likewise object can be used to club properties of something
+// syntax:
+/*
+
+let object_name={
+key : value;
+}
+*/
+
+let fruits = {
+    name : 'mango',
+    color: 'yellow',
+};
+// can change or access properties
+fruits.name = "banana";     //1 way
+fruits['name'] = 'bananna';   // 2nd way
+console.log(fruits);
+console.log(fruits.name); // bananna 
