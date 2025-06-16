@@ -39,18 +39,19 @@ console.log(reducedArray);
 
  //pop
 
+ let veg = ["potato", "onion"];
+ veg.pop();
+ console.log(veg);
 
-
+// last element deleted
 
 
 
  //push
-
-
-
-
-
-
+  
+ let fruit = ["Apple","banana","mango"];
+ fruit.push("strawberries");
+ console.log(fruit);   // added to the last
 
  //shift
 
