@@ -45,8 +45,6 @@ console.log(reducedArray);
 
 // last element deleted
 
-
-
  //push
   
  let fruit = ["Apple","banana","mango"];
@@ -54,13 +52,16 @@ console.log(reducedArray);
  console.log(fruit);   // added to the last
 
  //shift
+ // removes the element from the beginning 
 
+ let balls = ["green", 'blue', 'red'];
+ balls.shift();
+ console.log(balls);
 
+ //unshift - adds element from the beginning 
 
+ let colours = ["red", "silver", "yellow"];
+ colours.unshift("violet");
+ console.log(colours);
 
-
-
-
-
-
- //unshift
+ 
